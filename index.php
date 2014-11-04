@@ -215,7 +215,7 @@ $(document).ready(function(){
    |        -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--
    |phone   -->+1.416.277.6117<!--
    |        -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--
-   |ip      --><span id="ip">Your ip address is: 64.231.57.220</span><!--
+   |ip      --><span id="ip"><?php echo "Your ip address is: " . $_SERVER["REMOTE_ADDR"]; ?></span><!--
    |        --></h1><!--
 --></div><!--
 
